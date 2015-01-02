@@ -1,4 +1,4 @@
-package com.yang.service.hello;
+package com.yang.service.heartbeat;
 
 public class Greeting {
 	private final long id;
