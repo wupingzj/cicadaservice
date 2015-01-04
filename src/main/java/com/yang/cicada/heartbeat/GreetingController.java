@@ -1,4 +1,4 @@
-package com.yang.service.heartbeat;
+package com.yang.cicada.heartbeat;
 
 import java.util.concurrent.atomic.AtomicLong;
 

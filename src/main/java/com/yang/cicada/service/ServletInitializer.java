@@ -1,7 +1,9 @@
-package com.yang.service;
+package com.yang.cicada.service;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
+
+import com.yang.cicada.CicadaServiceApplication;
 
 public class ServletInitializer extends SpringBootServletInitializer {
 

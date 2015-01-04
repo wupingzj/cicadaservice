@@ -1,4 +1,4 @@
-package com.yang.service;
+package com.yang.cicada;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

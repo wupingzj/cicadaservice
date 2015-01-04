@@ -1,4 +1,4 @@
-package com.yang.service.heartbeat;
+package com.yang.cicada.heartbeat;
 
 public class Greeting {
 	private final long id;

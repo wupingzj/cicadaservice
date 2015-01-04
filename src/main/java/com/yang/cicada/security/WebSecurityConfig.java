@@ -1,4 +1,4 @@
-package com.yang.service.security;
+package com.yang.cicada.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 //		http
 //        .authorizeRequests()
-//            .antMatchers("/", "/home").permitAll()
+//            .antMatchers("/", "/home", "/greeting").permitAll()
 //            .anyRequest().authenticated()
 //            .and()
 //        .formLogin()
