@@ -22,6 +22,12 @@ public class CountryController {
 		country = new Country("Thailand", false, false);
 		countries.add(country);
 
+		country = new Country("China", true, true);
+		countries.add(country);
+		
+		country = new Country("USA", false, true);
+		countries.add(country);
+		
 		return countries;
 	}
 }
