@@ -1,4 +1,4 @@
-package com.yang.cicada.model.entity;
+package com.yang.cicada.domain;
 
 public class Country {
 	private String name;

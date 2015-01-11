@@ -1,4 +1,4 @@
-package com.yang.cicada.heartbeat;
+package com.yang.cicada.domain;
 
 public enum ServiceStatus {
 	OK

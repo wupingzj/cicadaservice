@@ -1,4 +1,4 @@
-package com.yang.cicada.mvc;
+package com.yang.cicada.web;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

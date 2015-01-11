@@ -1,4 +1,4 @@
-package com.yang.cicada.mvc.controller;
+package com.yang.cicada.web;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yang.cicada.model.entity.Country;
+import com.yang.cicada.domain.Country;
 
 @RestController
 public class CountryController {
