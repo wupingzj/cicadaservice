@@ -37,6 +37,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+		<!-- Add production-grade services: http://spring.io/guides/gs/spring-boot/ -->
+		<!-- http://docs.spring.io/spring-boot/docs/1.1.10.RELEASE/reference/htmlsingle/#production-ready. Guard these services!!! -->
+		<!-- If you are building a web site for your business, you probably need 
+			to add some management services. Spring Boot provides several out of the box 
+			with its actuator module, such as health, audits, beans, and more. -->
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
